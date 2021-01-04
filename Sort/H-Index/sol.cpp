@@ -25,5 +25,5 @@ int solution(vector<int> citations) {
             r=mid-1;
     }
    
-    return answer;
+    return answer; 
 }
