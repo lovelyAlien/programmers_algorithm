@@ -98,4 +98,4 @@
 > ```
 >
 > 
->![img](https://modoocode.com/img/19102C4E4F6E967A10EEAF.webp "실행결과")
+>![실행결과](https://modoocode.com/img/19102C4E4F6E967A10EEAF.webp "실행결과")
