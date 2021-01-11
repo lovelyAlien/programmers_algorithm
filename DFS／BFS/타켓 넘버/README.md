@@ -1,4 +1,4 @@
-### [Algorithm] Binary Counting - 비트연산을 통한 순열(부분집합, power set) 구하기
+### [Algorithm] Binary Counting - 부분집합, power set구하기
 
 ```cpp
 void main(void){
@@ -31,6 +31,26 @@ void main(void){
 
 
 
+` 1<<n `
+
+> - 2n의 값을 갖는다.
+>
+> - 원소가 n개일 경우의 모든 부분집합의 수를 의미한다.
+>
+> - [Power set(모든 부분 집합)](http://dumpsys.blogspot.kr/2015/03/algorithm-binary-counting-power-set.html)
+>   -공집합과 자기 자신을 포함한 모든 부분집합
+>   -각 원소가 포함되거나 포함되지 않는 2가지 경우의 수를 계산하면 모든 부분집합의 수가 계산된다.
+
+
+
+`i & (1 << j)`
+
+> - 계산 결과는 i의 j번째 비트가 1인지 아닌지를 의미한다.
+
+
+
+
+
 | **10** **진수** | **이진수** | **{A,** **B, C, D}** |
 | :-------------: | ---------- | -------------------- |
 |        0        | 0000       |                      |
@@ -51,21 +71,3 @@ void main(void){
 |       15        | 1111       | D, C, B, A           |
 
 
-
-### [Basic Skill] 유용한 비트 연산자
-
-**1<<n**
-
-> - 2n의 값을 갖는다.
->
-> - 원소가 n개일 경우의 모든 부분집합의 수를 의미한다.
->
-> - [Power set(모든 부분 집합)](http://dumpsys.blogspot.kr/2015/03/algorithm-binary-counting-power-set.html)
->  -공집합과 자기 자신을 포함한 모든 부분집합
->   -각 원소가 포함되거나 포함되지 않는 2가지 경우의 수를 계산하면 모든 부분집합의 수가 계산된다.
-
-
-
-**i & (1 << j)**
-
->- 계산 결과는 i의 j번째 비트가 1인지 아닌지를 의미한다.
